@@ -1,4 +1,5 @@
 import {
+    Float,
     Text,
     Html,
     PivotControls,
@@ -45,14 +46,16 @@ export default function Experience() {
                 <meshStandardMaterial color='greenyellow' />
             </mesh>
 
-            <Text
-                font='./bangers-v20-latin-regular.woff'
-                position={[1.2, 0.5, -3.2]}
-                scale={2}
-                color='crimson'
-            >
-                I LOVE R3F
-            </Text>
+            <Float speed={2} floatIntensity={2}>
+                <Text
+                    font='./bangers-v20-latin-regular.woff'
+                    position={[1.2, 0.5, -3.2]}
+                    scale={2}
+                    color='crimson'
+                >
+                    I LOVE R3F
+                </Text>
+            </Float>
         </>
     )
 }
