@@ -1,4 +1,5 @@
 import {
+    Text,
     Html,
     PivotControls,
     TransformControls,
@@ -43,6 +44,15 @@ export default function Experience() {
                 <planeGeometry />
                 <meshStandardMaterial color='greenyellow' />
             </mesh>
+
+            <Text
+                font='./bangers-v20-latin-regular.woff'
+                position={[1.2, 0.5, -3.2]}
+                scale={2}
+                color='crimson'
+            >
+                I LOVE R3F
+            </Text>
         </>
     )
 }
